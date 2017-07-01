@@ -7,5 +7,13 @@ import javax.persistence.Id;
 public class produto {
 	@Id
 	private Integer id;
+	private String descricao;
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	
 	
 }
